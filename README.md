@@ -112,8 +112,29 @@ Think of it like: “Run this container now, and I don’t want to manage server
 3. Simple APIs
 4. Burst workloads
 
+Side by Side comparison below:
+
+<img width="1182" height="688" alt="image" src="https://github.com/user-attachments/assets/5518a8fe-36d2-484a-a61f-7a54bf4c4063" />
+
 # What does Azure Container Registry have to do with ACAs and ACIs?
 
+- Azure Container Registry (ACR) is a private warehouse for container images.
+- If containers are running apps, and images are the blueprints, then:
+- ACR = the secure place where your blueprints are stored and versioned
+
+Analogy: 
+
+Why is a registry necessary?
+1. A container platform cnnot run an app unless it can pull from an image from somehwere. That "somewhere" must:
+- Store images
+- Version them
+- Allow secure access
+- Be highly available
+
+Why do organizations use Azure Container Registry?
+1. Security!!!!!!!!
+- Private secure repository of images. It stores and versions container images so Azure container platforms can reliably and securely deploy applciations.
+- Integrated with Entra ID
 
 
 
