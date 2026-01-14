@@ -19,6 +19,9 @@ Software container is like a shipping container
 - It doesn't care what truck or ship it's on (Linux VM, cloud service, kubernetes).
 - It GUARANTEES the contents arrive unchanged and predictable.
 
+<img width="1025" height="577" alt="image" src="https://github.com/user-attachments/assets/f270edaf-745d-4766-a169-eb16271201c8" />
+<img width="1025" height="577" alt="image" src="https://github.com/user-attachments/assets/f270edaf-745d-4766-a169-eb16271201c8" />
+
 
 
 # What do organizations use Container? 
