@@ -3,6 +3,12 @@
 # What are containers?
 - To understand what container security is, you must know what exactly a container is.
 
+Container image → the blueprint (what the app looks like)
+
+Container → a running instance of that image
+
+Container platform → the system that runs and manages containers
+
 - Container is a package of software and its dependencies.
 - Example: Think of a software container like a shipping container
 - The container holds everything for the item inside
@@ -50,16 +56,61 @@ Common Container platforms
 - Azure Container Apps
 - Azure Container Instances
 
+
 # What are Azure Container Apps?
 
+Azure Container Apps (ACA)
 
+What it is: A managed container platform built on Kubernetes (you don’t see K8s directly)
+
+Important: ACA is self healing = the platform automatically keeps your apps running when something goes wrong. Azure Container Instances are not self-healing.
+
+- Under the hood, Azure Container Apops is built on Kubernetes, which is why it has orchestration. It inherits orchestration features. Azure Container instances is NOT built on kubernetes.
+
+
+Supports:
+1. Autoscaling
+2. Revisions
+3. Traffic splitting
+4. Ingress
+
+Think of it like: “I want Kubernetes-like features without managing Kubernetes.”
+
+Common use cases:
+1. Microservices
+2. APIs
+3. Event-driven workloads
+4 .Modern app platforms
 
 
 
 # What are Azure Container Instances?
 
+- What it is: A service that runs SINGLE containers or small container groups
+- No orchestration = no auto-recovery
+- No infrastructure to manage as Microsoft manages it.
+
+Important: ACI is NOT self-healing.
+
+ACI behavior:
+
+- You say: “Run this container with these settings”
+- Azure starts it
+- That’s it
+
+If something goes wrong:
+1. Container crashes ❌ → it stays down
+2. Traffic spikes ❌ → no automatic scale
+3. Need 3 copies ❌ → you must create them manually
+4. Want rolling deploy ❌ → you must script it
 
 
+Think of it like: “Run this container now, and I don’t want to manage servers.”
+- Common use cases:
+1. Short-lived jobs
+2. Scripts
+3. Simple APIs
+4. Burst workloads
 
 # What does Azure Container Registry have to do with ACAs and ACIs?
 
