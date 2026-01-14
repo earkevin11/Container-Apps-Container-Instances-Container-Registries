@@ -20,9 +20,8 @@ Software container is like a shipping container
 - It GUARANTEES the contents arrive unchanged and predictable.
 
 <img width="1025" height="577" alt="image" src="https://github.com/user-attachments/assets/f270edaf-745d-4766-a169-eb16271201c8" />
-<img width="1025" height="577" alt="image" src="https://github.com/user-attachments/assets/f270edaf-745d-4766-a169-eb16271201c8" />
 
-
+In above image, you have the Docker engine, which acts as an interface between the containerized application and the host operating system. It allocates the operating system resources to the containers and ensures that the containers are isolated from one another. 
 
 # What do organizations use Container? 
 1. Consistency
