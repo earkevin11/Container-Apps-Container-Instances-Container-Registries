@@ -21,9 +21,10 @@ Software container is like a shipping container
 
 
 
-# What problem does Container solve for organizations?
-1. Consistancy
-- It provides consistency and the issue developers usually have and it is the statement "It works on my machine"
+# What do organizations use Container? 
+1. Consistency
+- It provides consistency and solves the issue of "Well, it works on my machine"
+  
 2. Faster deployments
 - Container start in seconds
 - Easy to deploy, roll back, and scale
