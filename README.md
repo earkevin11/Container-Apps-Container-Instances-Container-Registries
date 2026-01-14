@@ -137,5 +137,3 @@ Why do organizations use Azure Container Registry?
 - Integrated with Entra ID
 
 
-
-# How do organizations ensure Container Security?
